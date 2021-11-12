@@ -12,7 +12,7 @@
             headers: {'Content-Type': 'application/json'},
             credentials: 'include',
         })
-
+        authenticated.set(false);
         await goto('/login');
     }
 </script>
